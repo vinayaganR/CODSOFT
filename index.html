@@ -1,116 +1,102 @@
+<!DOCTYPE html>
 <html>
-<head>
-<title>Landing Page</title>
-<style>
-header{
-width:100%;
-height:100%;
-background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)),url("https://img.freepik.com/premium-photo/craftsman-is-welding-with-workpiece-steel_39733-222.jpg");
-background-size: cover;
-font-family: sans-serif;
-}
-nav{
-height: 100px;
-width:100%;
-color:white;
-display:flex;
-justify-content: space-around;
-align-items: center;
-}
-.logo{
-font-size: 30px;
-color:white;
-transition: 2s;
-}
-.logo:hover{
-color:darkblue;
-background-color:white;
-padding:10px 20px;
-}
-.menu a{
-text-decoration: none;
-color:white;
-padding:10px 20px;
-font-size: 20px;
-position: relative;
-}
-.menu a:before{
-content:'';
-position: absolute;
-top:0;
-left:0;
-width:0%;
-height:100%;
-border-bottom:2px solid rgb(255, 255, 255);
-transition: 0.6s linear;
-}
-.menu a:hover:before{
- width:90%;
-}
-.register a{
-text-decoration: none;
-color:white;
-font-size: 20px;
-padding:10px 20px;
-background-color:darkblue;
-transition: 0.5s;
-}
-.register a:hover{
-padding:15px 25px;
-background-color: white;
-color:darkblue
-        
-}
-.text{
-color:white;
-position: absolute;
-top:50%;
-left:50%;
-transform: translate(-50%,-50%);
-text-align: center;
-}
- .text span{
-letter-spacing: 5px;
-font-size:20px ;
-.text h1{
-font-size: 50px;
-}
-.text a{
-text-decoration: none;
- background-color:darkblue ;
-color:white;
-font-size:20px ;
-padding:10px 20px;
-transition: 0.5s;
-}
-.text a:hover{
-border:  2px solid rgb(255, 255, 255);
-padding:15px 25px;
-background-color: white;
-            
-color:darkblue
-</style>
+<head><title>portfolio</title>
+<link rel="stylesheet" type="text/css" href="portfolio.css">
 </head>
-    
-    
 <body>
-<header>
+<div class="name">
 <nav>
-<div class="logo">welding</div>
-<div class="menu">
-<a href="#">Home</a>
-<a href="#">'works</a>
-<a href="#">About Us</a>
-<a href="#">Contact</a>
+<h2 class="logo">portfo<span>lio</span></h2>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">About us</a></li>
+<li><a href="#">Services</a></li>
+<li><a href="#">Skills</a></li>
+<li><a href="#">Contact us</a></li>
+</ul>
+</nav>
+
+<div class="content">
+<h4>hello guys I'am </h4>
+<h1>R.VINAYAGAN</h1>
+<h2> web developer.</h2>
+<div class="newslatter">
+<form>
+<input type="email" name="email" id="mail" placeholder="Enter ur mail id">
+<input type="submit" name="submit" value="lets start">
+</form> 
 </div>
-<div class="register">
-<a href="#">for booking</a>
-</div></nav>
-<section class="text">
-<h1> welding services and work</h1>
-<span>modular home construction designs and all type of welding works</span><br><br><br>
-<a href="#">for more information</a>
+</div>
+</div>
+<section class="about">
+<div class="main">
+<img src="C:\Users\Admin\OneDrive\Pictures\dheena.jpg">
+<div class="about-text">
+<h2>About Me</h2>
+<h5 style="color:black">developer<span> & designer</span></h5>
+<p>Hi ! I'am a front-end developer. I can provide a  attractive and perfect designable modern website.
+I am sure that I can fulfill your queries. I can give u your project at a time. </p>
+<br>
+<link >
+<br>
+
+<button type="button">let's talk</button>
+</div>
+</div>
 </section>
-</header>
+<!--- services-->
+<div class="services">
+<div class="title">
+<h2> Our Services</h2>
+<div class="box">
+<div class="card">
+<i class="far fa-user"></i>
+<h5>web development</h5>
+<div class="para">
+<p>Every websites should be built with two primary goals. Firstly ,It needs to work across all devices.Secondly,it needs to be as fast as possible and eco-friendly</p> 
+<p style="text-align:center">  
+<a class="button" href="#">Read More</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="contact">
+<p>Let Me get you a beautiful Website.</p>
+<a class="button-two" href="#">Hire Me</a>
+</div>
+<br>
+
+<section>
+<div class="skill">
+<h2> I know little bit knowledge in</h2>
+<h3 style="color:#f9004d;">Python</h3>
+<h3  style="color:#f9004d;">Java</h3>
+<h3  style="color:#f9004d;">Html & Css</h3>
+<h3  style="color:#f9004d;">Java script & php</h3>
+</div>
+</section>
+
+<footer>
+<p>R.VINYAGAN</p>
+<p>For more HTML ,CSS and coding contact me ...</p>
+<div class="social">
+<a href="#"><i class="fa-brands fa-facebook" style="color: #1f3551;"></i></a>
+<a href="#"><i class="fa-brands fa-instagram"></i></a>
+<a href="#"><i class="fa-brands fa-twitter"></i></a>
+</div>
+<p class="end">CopyRight by R.VINAYAGAN</p>
+</footer>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
